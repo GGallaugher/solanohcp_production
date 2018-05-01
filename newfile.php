@@ -1,0 +1,27 @@
+<?php
+$host        = "host = 172.31.9.36";
+$port        = "port = 5432";
+$dbname      = "dbname = solanohcp";
+$credentials = "user = postgres password=Msimonpass!";
+
+$db = pg_connect( "$host $port $dbname $credentials"  );
+if(!$db) {
+    echo "Error : Unable to open database\n";
+} else {
+    echo "Opened database successfully\n";
+}
+
+$sql =<<<EOF
+      INSERT INTO USERS(ID,USERNAME,PASSWORD)
+	  VALUES (1, 'Paul', California);
+	  
+EOF;
+
+$ret = pg_query($db, $sql);
+if(!$ret) {
+    echo pg_last_error($db);
+} else {
+    echo "Records created successfully\n";
+}
+pg_close($db);
+?>

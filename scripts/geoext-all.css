@@ -1,0 +1,15 @@
+.gx - popup - anc {
+    background: transparent url(.. / images /
+        default / anchor.png) no - repeat 0 0;position: absolute;left: 5 px;z - index: 2;height: 16 px;width: 31 px;pointer - events: none;
+}.gx - popup - anc.top {
+    background: transparent url(.. / images /
+        default / anchor - top.png) no - repeat 0 0;top: -16 px;
+}.gx - popup - anc.right {
+    left: auto;right: 5 px;
+}.gx - ruledrag - insert - below {
+    border - bottom: 1 px dotted;
+}.gx - ruledrag - insert - above {
+    border - top: 1 px dotted;
+}.gx - grid - symbolizercol div {
+    padding: 0;
+}

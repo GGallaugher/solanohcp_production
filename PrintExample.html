@@ -1,0 +1,52 @@
+
+<!-- saved from url=(0070)http://docs.geoserver.org/latest/en/user/_downloads/print-example.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+        <title>Printing ux SimplePrint Example</title> 
+ 
+        <script type="text/javascript" src="./Printing ux SimplePrint Example_files/ext-base.js"></script> 
+        <script type="text/javascript" src="./Printing ux SimplePrint Example_files/ext-all.js"></script> 
+        <link rel="stylesheet" type="text/css" href="./Printing ux SimplePrint Example_files/ext-all.css"> 
+        <link rel="stylesheet" type="text/css" href="./Printing ux SimplePrint Example_files/examples.css"> 
+        <script src="./Printing ux SimplePrint Example_files/OpenLayers.js"></script> 
+        <script type="text/javascript" src="./Printing ux SimplePrint Example_files/GeoExt.js"></script> 
+        
+        <!-- script resources for this ux --> 
+        <script type="text/javascript" src="./Printing ux SimplePrint Example_files/SimplePrint.js"></script> 
+        
+        <script type="text/javascript" src="./Printing ux SimplePrint Example_files/SimplePrint(1).js"></script> 
+        
+        <!--
+        Using the script tag method to get the print service capabilities and
+        make them available in the printCapabilities variable.
+        The script tag below can be removed when configuring the printProvider
+        with url instead of capabilities.
+
+        If you are running GeoServer on a different host/port, you will need to
+        download this page to {GEOSERVER_DATA_DIR/www} and edit this URL
+        appropriately.
+        --> 
+        <script type="text/javascript" src="./Printing ux SimplePrint Example_files/info.json"></script> 
+    </head> 
+    <body class="  ext-chrome"> 
+        <h1>SimplePrint Form using GeoExt.data.PrintProvider</h1> 
+        
+        <p>This sample page is a simple app using the GeoExt printing control
+           to test installation of the GeoServer printing module.  This module
+           wraps the <a href="http://trac.mapfish.org/trac/mapfish/wiki/PrintModuleInstallation">Mapfish print module</a>.
+           See also <a href="http://docs.geoserver.org/stable/en/user/community/printing/">the GeoServer Manual</a>
+
+           for more information about the manual.  If the viewer on this page
+           fails to load, then you have not properly installed the extension.</p>
+        
+        <p>The rectangle and handles on the map can be used to change center,
+        scale and rotation. Dragging one of the handles will change the scale.
+        Dragging the corner handles on their edges will rotate the extent, if
+        supported by the layout. Holding the SHIFT key will constrain rotation
+        to 45° steps.</p> 
+        
+        <p>See <a href="http://docs.geoserver.org/latest/en/user/_downloads/SimplePrint.js">http://dev.geoext.org/extensions/geoext.ux/ux/SimplePrint/examples/SimplePrint.js</a> for the source code.</p> 
+        
+        <div id="content"></div> 
+     
+ 
+</body></html>
