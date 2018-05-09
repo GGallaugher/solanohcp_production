@@ -461,22 +461,22 @@ new OpenLayers.Layer.WMS(
 		"Parcels",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:parcels", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13626283.1384,4584305.78997, -13535992.5479,4655852.27853), visibility: true, noLegend: false, maxResolution: 18, numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: true, noLegend: false, maxResolution: 18, numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 	
 	new OpenLayers.Layer.WMS(
 		"Alkali Milk-Vetch",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:alkalimilkvetch", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:alkali_milk_vetch", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 		new OpenLayers.Layer.WMS(
 		"Boggs Lake Hedge-Hyssop",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:boggslakehedgehyssop", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:boggs_lake_hedge_hyssop", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 	
@@ -484,40 +484,40 @@ new OpenLayers.Layer.WMS(
 		new OpenLayers.Layer.WMS(
 		"Burrowing Owl",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:burrowingowl", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:burrowing_owl", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			
 		new OpenLayers.Layer.WMS(
 		"California Black Rail",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:californiablackrail", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223),  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:california_black_rail", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"California Clapper Rail",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:californiaclapperrail", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223),  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:california_clapper_rail", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 		new OpenLayers.Layer.WMS(
 		"California Tiger Salamander",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:californiatigersalamander", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"California Red-Legged Frog",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:californiaredleggedfrog", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:california_red_legged_frog", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			new OpenLayers.Layer.WMS(
 		"Colusa Grass",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:colusagrass", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:colusa_grass", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 				new OpenLayers.Layer.WMS(
@@ -531,150 +531,150 @@ new OpenLayers.Layer.WMS(
 	new OpenLayers.Layer.WMS(
 		"Conservancy Fairy Shrimp",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:conservancyfairyshrimp", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:conservancy_fairy_shrimp", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		
 	new OpenLayers.Layer.WMS(
 		"Contra Costa Goldfields",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:contracostagoldfields", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:contra_costa_goldfields", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Delta Green Ground Beetle",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:deltagreengroundbeetle", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:delta_green_ground_beetle", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			new OpenLayers.Layer.WMS(
 		"Delta Smelt",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:deltasmelt", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:delta_smelt", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 	new OpenLayers.Layer.WMS(
 		"Ferris\'s Milk Vetch",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:ferrsmilkvetch", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:ferris_milk_vetch", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 	new OpenLayers.Layer.WMS(
 		"Giant Garter Snake",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:giantgartersnake", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:giant_garter_snake", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Legenere",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:legenere", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			new OpenLayers.Layer.WMS(
 		"Longfin Smelt",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:longfinsmelt", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:longfin_smelt", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"Mason\'s Lilaeopsis",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:masonslilaeopsis", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:masons_lilaeopsis", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Sacramento Splittail",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:sacramentosplittail", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:sacramento_splittail", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			new OpenLayers.Layer.WMS(
 		"Salt Marsh Harvest Mouse",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:saltmarshharvestmouse", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:salt_marsh_harvest_mouse", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 				new OpenLayers.Layer.WMS(
 		"San Joaquin Valley Orcutt Grass",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:sanjoaquinvalleyorcuttgrass", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:san_joaquin_valley_orcutt_grass", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"Soft Bird\'s Beak",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:softsaltybirdsbeak", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:soft_salty_birds_beak", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Solano Grass",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:solanograss", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:solano_grass", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Suisun Thistle",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:suisunthistle", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:suisun_thistle", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			new OpenLayers.Layer.WMS(
 		"Swainson\'s Hawk",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:swainsonshawk", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:swainsons_hawk", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"Tricolored Blackbird",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:tricoloredblackbird", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:tricolored_blackbird", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"Valley Elderberry Longhorn Beetle",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:valleyelderberrylonghornbeetle", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:valley_elderberry_longhorn_beetle", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Vernal Pool Fairy Shrimp",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:vernalpoolfairyshrimp", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:vernal_pool_fairy_shrimp", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"Vernal Pool Smallscale",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:vernalpoolsmallscale", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:vernal_pool_smallscale", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 	new OpenLayers.Layer.WMS(
 		"Vernal Pool Tadpool Shrimp",
 		'/geoserver/wms/?',
-		{layers: "solanohcp:vernalpooltadpoleshrimp", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{layers: "solanohcp:vernal_pool_tadpole_shrimp", transparent: true, format: 'image/png', tiled: true},
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 	"Baker\’s Navarretia",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:bakersnavarretia", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 	"Bearded Popcorn-Flower",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:beardedpopcornflower", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 	"Brittlescale",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:brittlescale", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 	
@@ -682,119 +682,119 @@ new OpenLayers.Layer.WMS(
 		"Carquinez Goldenbush",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:carquinezgoldenbush", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false, visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(	
 		
 		"Delta Mudwort",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:deltamudwort", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(		
 		"Delta Tule Pea",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:deltatulepea", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 			"Dwarf Downingia",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:dwarfdowningia", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 				"Ferris\'s Goldfields",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:ferrisgoldfields", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 	"Foothill Yellow-legged Frog",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:foothillyellowleggedfrog", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		
 		new OpenLayers.Layer.WMS(	
 	"Fragrant Fritillary",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:fragrantfritillary", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Grasshopper Sparrow",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:grasshoppersparrow", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'} 
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'} 
 	),
 			new OpenLayers.Layer.WMS(
 			"Heartscale",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:heartscale", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 				"Heckard\'s Pepper-Grass",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:heckardspeppergrass", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 	"Hispid Bird\’s-Beak",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:hispidsbirdsbeak", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Hogwallow Starfish",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:hogwallowstarfish", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 "Loggerhead Shrike",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:loggerheadshrike", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 "Midvalley Fairy Shrimp",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:midvalleyfairyshrimp", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 		new OpenLayers.Layer.WMS(
 	"Northern Harrier",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:northernharrier", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	
 			new OpenLayers.Layer.WMS(
 	"Pappose Tarplant",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:papposetarplant", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 			new OpenLayers.Layer.WMS(	
 	"Recurved Larkspur",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:recurvedlarkspur", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Ricksecker\'s Water Scavenger Beetle",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:rickseckerswaterscavengerbeetle", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 		new OpenLayers.Layer.WMS(
 		"Saline Clover",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:salineclover", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(
 		"Irrigated Agriculture",
@@ -814,45 +814,45 @@ new OpenLayers.Layer.WMS(
 		"Salt Marsh Common Yellowthroat",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:saltmarshcommonyellowthroat", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),
 	new OpenLayers.Layer.WMS(	
 		
 	"San Joaqin Spearscale",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:sanjoaquinspearscale", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 		new OpenLayers.Layer.WMS(
 "San Pablo Song Sparrow",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:sanpablosongsparrow", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223),  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,   visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 		new OpenLayers.Layer.WMS(
 	"Short-Eared Owl",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:shortearedowl", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),		
 
 	new OpenLayers.Layer.WMS(	
 		"Song Sparrow - \"Modesto\" Population",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:modestosongsparrow", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),		
 		new OpenLayers.Layer.WMS(
 			"Suisun Marsh Aster",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:suisuinmarshaster", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),		
 		new OpenLayers.Layer.WMS(
 				"Suisun Shrew",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:suisunshrew", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 	new OpenLayers.Layer.WMS(
 				"Coastal Marsh Natural Community",
@@ -892,7 +892,7 @@ new OpenLayers.Layer.WMS(
 	"Suisun Song Sparrow",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:suisunsongsparrow", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 	
 	
@@ -924,19 +924,19 @@ new OpenLayers.Layer.WMS(
 	"Valley Needlegrass Grassland",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:valleyneedlegrassgrassland", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 	new OpenLayers.Layer.WMS(	
 	"Western Pond Turtle",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:westernpondturtle", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),		
 		new OpenLayers.Layer.WMS(
 	"Woolly Rose-Mallow",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:woollyrosemallow", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 			new OpenLayers.Layer.WMS(
 	"Existing and Potential Reserves",
@@ -1019,7 +1019,7 @@ new OpenLayers.Layer.WMS(
 	"Yellow-Breasted Chat",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:yellowbreastedchat", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 	
 			new OpenLayers.Layer.WMS(
@@ -1059,7 +1059,7 @@ new OpenLayers.Layer.WMS(
 	"Callippe Silverspot Butterfly",
 		'/geoserver/wms/?',
 		{layers: "solanohcp:callipesilverspotbutterfly", transparent: true, format: 'image/png', tiled: true},
-		{singleTile: false, opacity: 1.0, isBaseLayer: false, maxExtent: new OpenLayers.Bounds(-13601187.0624,4604653.56283, -13541944.1481,4654650.89223), visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
+		{singleTile: false, opacity: 1.0, isBaseLayer: false,  visibility: false, noLegend: false,  numZoomLevels: 21,  featureInfoFormat: 'application/vnd.ogc.gml'}
 	),	
 			new OpenLayers.Layer.WMS(
 	"Facilities - Point Features",
